@@ -1,7 +1,7 @@
 # House-Price-Prediction
-A production-ready **Machine Learning API** built with **FastAPI** that predicts house prices based on key housing and geographical features.   The project demonstrates best practices in **ML model serving, API design, validation, and deployment readiness**.
+A production-ready **Machine Learning API** built with **FastAPI** that predicts house prices based on key housing and geographical features. The project demonstrates best practices in **ML model serving, API design, validation, and deployment readiness**.
 
-## Key Features
+# Key Features
 
 - Predicts house prices using a trained **Scikit-learn** model
 - High-performance REST API with **FastAPI**
@@ -139,7 +139,7 @@ POST /predict
 }
 ```
 
-#### Example Response
+# Example Response
 
 ```json
 {
@@ -149,7 +149,7 @@ POST /predict
 
 ---
 
-## Testing
+# Testing
 
 The project supports testing with **pytest** and **httpx**.
 
@@ -159,7 +159,7 @@ pytest
 
 ---
 
-## Deployment
+# Deployment
 
 This API can be deployed on:
 
@@ -171,7 +171,7 @@ This API can be deployed on:
 
 ---
 
-## 🔐 Error Handling & Validation
+# Error Handling & Validation
 
 * Strict request validation with Pydantic
 * Clear HTTP error responses
